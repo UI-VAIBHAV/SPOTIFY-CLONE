@@ -1,0 +1,239 @@
+.page{
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+}
+.side{
+    color: white;
+    height: 100%;
+    width: 340px;
+    background-color: #121212 ;
+    border-radius: 1rem;
+    margin-right: 4px;
+}
+.menu{
+    color: white;
+    height: 100%;
+    width: 100vh;
+    flex: 1;
+    background-color: #121212;
+    border-radius: 1rem;
+    margin-left: 4px;
+    overflow: auto;
+}
+.foot{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    background-color: #232323;
+    height: 80px;
+    width: 100%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.icons{
+    padding-left: 20px;
+    background-color: #232323;
+    height: 100px;
+    border-radius: 1rem;
+    margin: 0.2rem;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.search{
+    opacity: 0.7;
+}
+.search:hover{
+    opacity: 1;
+}
+.lib{
+    height: 200px;
+    border-radius: 1rem;
+    background-color: #232323;
+    align-self: baseline;
+    font-size: 1rem;
+    margin:0.2rem;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.libr{
+    display: flex;
+    justify-content: space-between;
+}
+.library{
+    opacity: 0.7;
+    margin-bottom: 30px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.libimg{
+    padding-right: 10px;
+}
+.library:hover{
+    opacity: 1;
+}
+.lib img{
+    height: 1.2rem;
+    padding-left:15px ;
+    padding-top:8px;
+    
+}
+.content{
+    padding-left: 10px;
+}
+.create{
+    border-radius: 100px;
+    height: 2rem;
+    width: 8rem;
+    border: none;
+    font-weight: 550;
+}
+.playlist{
+    font-weight: 600;
+}
+.pod{
+    height: 150px;
+    border-radius: 1rem;
+    background-color: #232323;
+    margin: 15px 0.2rem;
+}
+.follow{
+    padding-left: 1rem;
+    padding-top: 0.1rem;
+}
+.line{
+    width: 150px;
+    border: none;
+    border-radius: 100px;
+}
+.browse{
+    border: none;
+    border-radius: 100px;
+    height: 1.8rem;
+    width: 150px;
+    margin-top: 0.5rem;
+    font-weight: 550;
+}
+.navbar{
+    background-color: #232323;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    border-radius: 1rem;
+    margin-top: 0.2px;
+}
+.nav{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.up{
+    border-radius: 2rem;
+    border: none;
+    height: 1.8rem;
+    width: 5rem;
+}
+.dwl{
+    border-radius: 2rem;
+    border: none;
+    height: 1.8rem;
+    width: 7rem;
+    background-color: black;
+    color: white;
+    margin:0 20px ;
+
+}
+.nav-but{
+    padding-right: 20px ;
+    display: flex;
+    align-items: center;
+}
+.trending{
+    margin-left: 20px;
+    width: 100%;
+}
+.global{
+    border-radius: 1rem;
+    height: 350px;
+    width: 200px;
+    margin-left: 20px;
+    background-color: #232323;
+    margin-top: 10px;
+}
+.global img{
+    padding: 15px;
+    height: 200px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.5rem;
+}
+.many{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;  
+}
+.space{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    height: 0.12rem;
+    width: 80%;
+    background-color: white;
+    opacity: 0.7;
+}
+.foot-left{
+    width: 25%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.foot-mid{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.foot-mid img{
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+
+}
+.Volume{
+    height: 1rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10px;
+
+}
+.foot-right{
+    width: 25%;
+    height: 100%;
+}
+.foot-left img{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    width: 4rem;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
